@@ -14,15 +14,18 @@
 
 3. **Navigate to the Project Directory**
    - Use the `cd` command to navigate to the directory where you downloaded the project files. For example:
+
     "cd /path/to/php-assignment"
     
 4. **Build the Docker Image**
    - Run the following command to build the Docker image:
+
     "docker build -t php-assignment ."
     
 
 5. **Run the Docker Container**
    - Run the following command to start the Docker container:
+
     "docker run -p 8080:80 -d php-assignment"
 
 6. **Access the PHP Application**
@@ -31,5 +34,7 @@
 ## Stopping the Container
 
 - To stop the Docker container, run:
+
 "docker ps"
+
 "docker stop <container_id>"
